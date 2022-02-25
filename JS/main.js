@@ -6,7 +6,7 @@ window.onload = function () {
         './Assets/img/Terreno_4.jpeg',
         './Assets/img/Terreno_5.jpeg'
     ];
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 2500;
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 5000;
     let posicionActual = 0;
     let $botonRetroceder = document.querySelector('#retroceder');
     let $botonAvanzar = document.querySelector('#avanzar');
