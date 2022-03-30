@@ -58,7 +58,7 @@ section {
   box-shadow: 8px 8px 16px var(--Dark-soil);
   margin-bottom: 10px;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   height: 300px;
   margin: 20px;
@@ -66,8 +66,45 @@ section {
 #imagen-batolito {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Antioquia_shaded.png/1024px-Antioquia_shaded.png");
 }
+#imagen-gcolombia {
+  background-image: url("https://i1.rgstatic.net/publication/335590375_Mapa_Geologico_de_Colombia_2019_a_escala_12M/links/5d927dd2299bf10cff1cc5e0/largepreview.png");
+}
+#imagen-hidrología {
+  background-image: url("https://rionegro.gov.co/wp-content/themes/rionegro/img/maps/gallery/corregimientos_de_rionegro.png");
+}
+#imagen-descripcion {
+  background-image: url("https://www.cornare.gov.co/wp-content/uploads/2020/01/contextualizacion-geografica.png");
+}
+#imagen-cornare {
+  align-self: center;
+  width: 950px;
+  height: 750px;
+  background-image: url("https://www.cornare.gov.co/wp-content/uploads/2020/04/POT_Ordenamiento.png");
+}
+#imagen-gantioquia {
+  background-size: 340px 300px;
+  background-image: url("https://i.pinimg.com/550x/9d/03/b9/9d03b94fc6ba70f0fa2d936cf7a866ab.jpg");
+}
 #imagen-usos {
   background-image: url("../Assets/img/Uso_suelos.jpg");
+}
+#imagen-detalles {
+  height: 500px;
+  width: 30%;
+  background-image: url("../Assets/img/Terreno_2.jpeg");
+}
+#imagen-sistandino {
+  background-image: url("../Assets/img/sistandino.PNG");
+  background-size: 340px 340px;
+}
+.detalles {
+  display: flex;
+  flex-direction: row;
+}
+#in-detalles {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }
 .geologia {
   display: flex;
@@ -77,10 +114,13 @@ section {
 .descripcion {
   border-top: 10px solid var(--Dark-soil);
 }
-#geologia-regional,
-#geologia-local {
+#geologia-regional {
   width: 50%;
   justify-content: space-between;
+}
+#geologia-local {
+  width: 50%;
+  justify-content: start;
 }
 h3 {
   font-size: 2.5rem;
