@@ -1,0 +1,58 @@
+.muestreo {
+  background-image: url(../Assets/img/sitio_muestreo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-muestreo {
+  background-color: white;
+  width: 700px;
+  padding: 0;
+  border-radius: 100px;
+}
+.p-muestreo p {
+  width: 650px;
+}
+.imagen {
+  width: 20%;
+  border-width: 12px;
+  border: 12px solid var(--Dark-soil);
+  box-shadow: 8px 8px 16px var(--Dark-soil);
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 20px;
+}
+.divisor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#sitio-muestreo2 {
+  background-image: url("../Assets/img/sitio_muestreo2.jpg");
+}
+#terreno2 {
+  background-image: url("../Assets/img/Terreno_2.jpeg");
+}
+.tubo-1 {
+  background-image: url("../Assets/img/tubo-1.jpg");
+}
+.tubo-2 {
+  background-image: url("../Assets/img/tubo-2.jpg");
+}
+#tubo-envuelto {
+  background-image: url("../Assets/img/tubo-envuelto.jpeg");
+  height: 400px;
+}
+.muestra-post-tallado {
+  background-image: url("../Assets/img/Muestra_Post_tallado.jpeg");
+}
+.medicion {
+  background-image: url("../Assets/img/Medicion_Diametro.jpeg");
+}

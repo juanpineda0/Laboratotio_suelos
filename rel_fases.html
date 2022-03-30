@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaciones de fase</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+    <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <div>
+            <img width="100px" src="./Assets/icon/iconLab.png" alt="icono-header">
+            <nav>
+                <ul class="header-redes">
+                    <li > <a href="./index.html">Home</a> </li>
+                    <li> <a href="./About-us.html">¿Quiénes somos?</a> </li>
+                    <li> <a href="./About-soil.html">Acerca del terreno</a></li>
+                    <li> <a href="./muestreo.html">Muestreo</a> </li>
+                    <li class="pag-actual"> <a href="./rel_fases.html">Relaciones de fase</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Relaciones de fase</h1>
+    <p class="first-parrafo">Teniendo la muestra en el laboratorio se llevaron a cabo varios ensayos con los cuales se obtuvieron la mayor cantidad de propiedades del suelo posible. En esta sección se mostrará el proceso y los resultados obtenidos en estos laboratorios sobre las relaciones de fase del suelo.</p>
+    <section class="second Contenido_W">
+        <h2 class="second-title">Masa húmeda, Masa Seca, Humedad densidad, peso específico húmedo y seco aparente</h2>
+        <p class="second-parrafo">Lo primero que se hizo relacionado a las relaciones de fase fue calcular la humedad de la muestra. Esto se realizó metiendo la muestra al horno durante mas de una semana y calculando la diferencia de masas antes y después de sacada del horno. Esta masa perdida nos indicaría la masa de agua que tenía la muestra cuando se tomó, y la masa después de salir del horno es la cantidad de solido que tiene la muestra. También si dividimos la masa húmeda y la masa seca por el volumen de la muestra podemos encontrar la densidad del suelo húmedo y la densidad del suelo seco respectivamente. Si multiplicamos estas densidades por la gravedad (se tomó gravedad de 10m/s2) obtenemos los pesos específicos correspondientes.</p>
+        <div class="row">
+            <div class="large-8 columns">
+              <div class="twentytwenty-container">
+                <img src="./Assets/img/Masa_Muestraensayo.jpeg" width="500px"/>
+                <img src="./Assets/img/Masa-seca.jpg" width="500px"/>
+              </div>
+            </div>
+            <table class="styled-table">
+            <thead>
+                <tr>
+                    <th colspan="3">Medidas obtenidas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Masa suelo húmedo</td><td>1272.55</td><td>g</td></tr>
+                <tr><td>Masa suelo seco</td><td>884.45</td><td>g</td></tr>
+                <tr><td>Masa del agua</td><td>388.1</td><td>g</td></tr>
+                <tr><td>Volumen total</td><td>731.40</td><td>cm^3</td></tr>
+                <tr><td>Volumen agua</td><td>388.10</td><td>cm^3</td></tr>
+                <tr><td>Densidad</td><td>1.740</td><td>g/(cm^3)</td></tr>
+                <tr><td>Densidad del agua</td><td>1</td><td>g/(cm^3)</td></tr>
+                <tr><td>Densidad seca</td><td>1.209</td><td>g/(cm^3)</td></tr>
+                <tr><td>Peso específico</td><td>17.40</td><td>KN/(m^3)</td></tr>
+                <tr><td>Peso específico del agua</td> <td>10.00</td><td>KN/(m^3)</td></tr>
+                <tr><td>Peso específico</td><td>12.09</td><td>KN/(m^3)</td></tr>
+                <tr><td>Húmedad</td><td>43.88</td><td>%</td></tr>
+            </tbody>
+            </table>
+        </div>
+        
+    </section>
+    
+    <footer>
+        <p>​©2022 por Laboratorio de Física y Mecánica de Suelos de Juan David Pineda, Fernando Gómez, Pablo Ospina.</p>
+    </footer>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+    <script src="./JS/fases.js" ></script>
+    <script src="./JS/plugins/jquery.event.move.js"></script>
+    <script src="./JS/plugins/jquery.twentytwenty.js"></script>
+    <script>
+        $(function(){
+          $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+          $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+        });
+    </script>
+    
+</body>
+</html>
