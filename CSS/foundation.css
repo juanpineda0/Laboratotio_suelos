@@ -32,15 +32,36 @@ select {
   justify-content: center;
   margin: 0 auto;
 }
+
 table {
   font-size: 1.5rem;
   width: 30%;
   margin: 0 auto;
 }
+
 /* Styles for screens that are atleast 768px; */
 @media only screen and (min-width: 768px) {
   .large-8 {
     position: relative;
     width: 500px;
   }
+}
+
+#imagen-disgregado {
+  background-image: url("../Assets/img/Suelo-disgregado.jpg");
+  width: 250px;
+}
+#imagen-picagua {
+  background-image: url("../Assets/img/picnometro-agua.jpeg");
+  width: 250px;
+}
+#imagen-picsuelo {
+  background-image: url("../Assets/img/picnometro-aguasuelo.jpg");
+  width: 250px;
+}
+.aforo {
+  width: 60%;
+}
+.tabla-aforo {
+  width: 40%;
 }

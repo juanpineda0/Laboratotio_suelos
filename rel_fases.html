@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relaciones de fase</title>
     <link rel="stylesheet" href="./CSS/main.css">
-    <link href="./CSS/foundation.css" rel="stylesheet"  />
     <link href="./CSS/twentytwenty.css" rel="stylesheet"/>
+    <link href="./CSS/foundation.css" rel="stylesheet"  />
 </head>
 <body>
     <header>
@@ -24,10 +24,12 @@
             </nav>
         </div>
     </header>
-    <h1>Relaciones de fase</h1>
-    <p class="first-parrafo">Teniendo la muestra en el laboratorio se llevaron a cabo varios ensayos con los cuales se obtuvieron la mayor cantidad de propiedades del suelo posible. En esta sección se mostrará el proceso y los resultados obtenidos en estos laboratorios sobre las relaciones de fase del suelo.</p>
-    <section class="second Contenido_W">
-        <h2 class="second-title">Masa húmeda, Masa Seca, Humedad densidad, peso específico húmedo y seco aparente</h2>
+    <section class="first">
+        <h1>Relaciones de fase</h1>
+        <p class="first-parrafo">Teniendo la muestra en el laboratorio se llevaron a cabo varios ensayos con los cuales se obtuvieron la mayor cantidad de propiedades del suelo posible. En esta sección se mostrará el proceso y los resultados obtenidos en estos laboratorios sobre las relaciones de fase del suelo.</p>
+    </section>
+    <section class="second">
+        <h2 class="second-title">Masa húmeda, masa Seca, húmedad, densidad y peso específico húmedo y seco aparente</h2>
         <p class="second-parrafo">Lo primero que se hizo relacionado a las relaciones de fase fue calcular la humedad de la muestra. Esto se realizó metiendo la muestra al horno durante mas de una semana y calculando la diferencia de masas antes y después de sacada del horno. Esta masa perdida nos indicaría la masa de agua que tenía la muestra cuando se tomó, y la masa después de salir del horno es la cantidad de solido que tiene la muestra. También si dividimos la masa húmeda y la masa seca por el volumen de la muestra podemos encontrar la densidad del suelo húmedo y la densidad del suelo seco respectivamente. Si multiplicamos estas densidades por la gravedad (se tomó gravedad de 10m/s2) obtenemos los pesos específicos correspondientes.</p>
         <div class="row">
             <div class="large-8 columns">
@@ -48,23 +50,59 @@
                 <tr><td>Masa del agua</td><td>388.1</td><td>g</td></tr>
                 <tr><td>Volumen total</td><td>731.40</td><td>cm^3</td></tr>
                 <tr><td>Volumen agua</td><td>388.10</td><td>cm^3</td></tr>
-                <tr><td>Densidad</td><td>1.740</td><td>g/(cm^3)</td></tr>
+                <tr><td>Densidad húmeda</td><td>1.740</td><td>g/(cm^3)</td></tr>
                 <tr><td>Densidad del agua</td><td>1</td><td>g/(cm^3)</td></tr>
                 <tr><td>Densidad seca</td><td>1.209</td><td>g/(cm^3)</td></tr>
-                <tr><td>Peso específico</td><td>17.40</td><td>KN/(m^3)</td></tr>
+                <tr><td>Peso específico húmedo</td><td>17.40</td><td>KN/(m^3)</td></tr>
                 <tr><td>Peso específico del agua</td> <td>10.00</td><td>KN/(m^3)</td></tr>
                 <tr><td>Peso específico</td><td>12.09</td><td>KN/(m^3)</td></tr>
                 <tr><td>Húmedad</td><td>43.88</td><td>%</td></tr>
             </tbody>
             </table>
-        </div>
-        
+        </div> 
     </section>
-    
+    <section class="first">
+        <h2 class="first-title">Gravedad Especifica, densidad y peso específico del sólido.</h2>
+        <div class="fila">
+            <p class="first-parrafo">A continuación, se disgregó y cuarteo la muestra y se tomó un cuarto de está para el calculo de la gravedad especifica de los sólidos, ya que esta se necesita para calcular los volúmenes y por ende para los cálculos de las otras relaciones de fase. </p>
+            <span class="imagen" id="imagen-disgregado"></span>
+        </div>
+        <div class="fila">
+            <span class="imagen" id="imagen-picagua"></span>
+            <p class="first-parrafo">Lo primero que se realizó en este proceso fue introducir una masa determinada de agua destilada al picnómetro. Después se le echa al agua el cuarto de la muestra y se mide otra vez su masa. La diferencia de estas dos masas será la masa del suelo que se está analizando. Luego se termina de llenar el picnómetro con agua destilada hasta un punto de control, y se des airea la muestra con una bomba para que no haya volumen de aire que pueda afectar las medidas tomadas.</p>
+            <span class="imagen" id="imagen-picsuelo"></span>
+        </div>
+        <div class="fila">
+            <p class="first-parrafo aforo"> Después se procede a tomar la masa de este picnómetro y vaciamos toda la mezcla, a continuación, se vuelve a llenar el picnómetro hasta el punto de control y se pesa. La resta de estas dos ultimas masas da la diferencia entre la masa del solido y la masa del agua que ocupa el mismo volumen del solido (ya que los volúmenes totales son los mismos). Si restamos la masa del solido con este valor que se acaba de obtener podemos encontrar la masa del agua que ocupa el mismo volumen de la muestra introducida en el picnómetro. Sabemos que la GS del suelo seria la densidad del suelo sobre la densidad del agua, Pero como en nuestro caso sabemos las masas de ambos, en un volumen igual podemos decir que la división entre la masa del suelo y la masa del agua (con el mismo volumen del suelo) seria la GS que estamos buscando. Si se multiplica este GS por la densidad de agua (que en nuestro caso se tomó de 1g/cm3) se obtiene la densidad del solido y si multiplicamos esta por la gravedad obtenemos el peso específico del sólido.</p>
+            <table class="styled-table tabla-aforo">
+                <thead>
+                    <tr>
+                        <th colspan="3">Medidas obtenidas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Picnometro Parcialmente lleno con Agua </td><td>394.85</td><td width="5%">g</td></tr>
+                    <tr><td>Picnometro Parcialmente lleno con Agua y suelo </td><td>429.7</td><td>g</td></tr>
+                    <tr><td>I </td><td>34.85</td><td>g</td></tr>
+                    <tr><td>Picnometro aforado con Agua y suelo</td><td>685.25</td><td>g</td></tr>
+                    <tr><td>Picnometro aforado con Agua</td><td>663.13</td><td>g</td></tr>
+                    <tr><td>II </td><td>22.12</td><td>g</td></tr>
+                    <tr><td>III</td><td>12.73</td><td>g</td></tr>
+                    <tr><td>GS </td><td colspan="2">34.85</td></tr>
+                </tbody>
+                </table>
+        </div>
+    </section>
+    <section class="second">
+        <h2 class="second-title">Volumen de sólidos y vacíos; Porosidad, Relación de vacíos y saturación.</h2>
+        <div-fila>
+            <p class="second-parrafo">Para el calculo del volumen del solido se dividió la masa seca obtenida sobre la densidad de solido que sale de la gravedad específica, pero con los datos del sólido. Finalmente, el volumen de vacíos es la resta de el volumen total de la muestra (El volumen del cilindro inicial) menos el volumen de los sólidos. La relación de vacíos es la relación entre el volumen de vacíos y el volumen de sólidos, por otro lado, la porosidad es el volumen de vacíos sobre el volumen total, y finalmente la saturación es el volumen del agua sobre el volumen de vacíos.</p>
+
+        </div-fila>
+    </section>
     <footer>
         <p>​©2022 por Laboratorio de Física y Mecánica de Suelos de Juan David Pineda, Fernando Gómez, Pablo Ospina.</p>
-    </footer>
-    
+    </footer> 
     <script
         src="https://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="

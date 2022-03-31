@@ -12,9 +12,10 @@
   width: 700px;
   padding: 0;
   border-radius: 100px;
+  padding: 30px;
 }
 .p-muestreo p {
-  width: 650px;
+  width: 90%;
 }
 .imagen {
   width: 20%;

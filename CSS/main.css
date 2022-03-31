@@ -81,13 +81,12 @@ nav {
   align-content: space-around;
   flex-direction: column;
   justify-content: space-evenly;
-  text-align: center;
+  text-align: justify;
   height: contain;
   padding-top: 30px;
 }
 .objetivo-titulo,
 .first-title {
-  width: 70%;
   text-align: center;
   color: var(--Dark-soil);
   font-size: 5rem;
@@ -99,17 +98,16 @@ nav {
 }
 .objetivo-parrafo,
 .first-parrafo {
-  text-align: center;
+  width: 70%;
+  text-align: justify;
   margin-bottom: 40px;
-  margin: 20px auto;
+  margin: 20px;
   font-size: 2rem;
   line-height: normal;
+  align-self: center;
 }
 .objetivo-parrafo {
   width: 70%;
-}
-.first-parrafo {
-  width: 50%;
 }
 .introduccion {
   height: max-content;
@@ -142,11 +140,12 @@ nav {
 .introduccion-parrafo,
 .second-parrafo {
   width: 70%;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 40px;
-  margin: 20px auto;
+  margin: 20px;
   font-size: 2rem;
   line-height: normal;
+  align-self: center;
 }
 .ubicacion-coordenada,
 .introduccion-coordenada {
@@ -190,6 +189,18 @@ footer p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.imagen {
+  width: 50%;
+  border-width: 12px;
+  border: 12px solid var(--Dark-soil);
+  box-shadow: 8px 8px 16px var(--Dark-soil);
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 20px;
 }
 #retroceder,
 #avanzar {
@@ -248,15 +259,25 @@ footer p {
 }
 tbody tr:nth-child(odd) {
   background-color: #bf7b43;
+  color: #ffffff;
 }
 tbody tr:nth-child(even) {
   background-color: #e6c37f;
+  color: #000000;
 }
 table {
-  background-color: #bf7b43;
+  background-color: black;
+  width: 400px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
 }
 thead,
 tfoot {
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+.fila {
+  display: flex;
+  flex-direction: row;
 }
