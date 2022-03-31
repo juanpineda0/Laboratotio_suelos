@@ -65,3 +65,9 @@ table {
 .tabla-aforo {
   width: 40%;
 }
+.conclusiones,
+.analisis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
