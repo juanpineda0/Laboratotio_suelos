@@ -51,18 +51,6 @@ section {
   width: 100%;
   height: max-content;
 }
-.imagen {
-  width: 50%;
-  border-width: 12px;
-  border: 12px solid var(--Dark-soil);
-  box-shadow: 8px 8px 16px var(--Dark-soil);
-  margin-bottom: 10px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 300px;
-  margin: 20px;
-}
 #imagen-batolito {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Antioquia_shaded.png/1024px-Antioquia_shaded.png");
 }
