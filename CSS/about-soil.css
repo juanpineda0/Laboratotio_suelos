@@ -85,6 +85,22 @@ section {
   background-image: url("../Assets/img/sistandino.PNG");
   background-size: 340px 340px;
 }
+#imagen-hidrologiaideam {
+  background-image: url("../Assets/img/HidroIdeam.png");
+  background-size: 340px 340px;
+}
+#imagen-precipitacion {
+  background-image: url("../Assets/img/Rainfall-Rionegro.png");
+  background-size: 320px 260px;
+}
+#imagen-diaslluvia {
+  background-image: url("../Assets/img/Dias_lluvia.png");
+  background-size: 320px 260px;
+}
+#imagen-temperatura {
+  background-image: url("../Assets/img/Temperatura.png");
+  background-size: 320px 300px;
+}
 .detalles {
   display: flex;
   flex-direction: row;
