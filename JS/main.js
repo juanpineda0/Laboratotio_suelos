@@ -1,6 +1,5 @@
 window.onload = function () {
     const IMAGENES = [
-        './Assets/img/Terreno_1.jpeg',
         './Assets/img/Terreno_2.jpeg',
         './Assets/img/Terreno_3.jpeg',
         './Assets/img/Terreno_4.jpeg',
@@ -45,7 +44,7 @@ window.onload = function () {
     function renderizarImagen () {
         $imagen.style.backgroundImage = `url(${IMAGENES[posicionActual]})`;
     }
-
+    renderizarImagen();
     /**
      * Activa el autoplay de la imagen
      */

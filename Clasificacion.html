@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación suelos</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    
+    <link rel="stylesheet" href="./CSS/Clasificacion.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img width="100px" src="./Assets/icon/iconLab.png" alt="icono-header">
+            <nav>
+                <ul class="header-redes">
+                    <li> <a href="./index.html">Home</a> </li>
+                    <li> <a href="./About-us.html">¿Quiénes somos?</a> </li>
+                    <li> <a href="./About-soil.html">Acerca del terreno</a></li>
+                    <li> <a href="./muestreo.html">Muestreo</a> </li>
+                    <li> <a href="./rel_fases.html">Relaciones de fase</a> </li>
+                    <li class="pag-actual header-clasificacion"> <a href="./Clasificacion.html">Clasificación de suelos</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+            <h1>Clasificación de suelos</h1>
+            <p class="first-parrafo">Los otros tres cuartos del cuarteo realizado a la muestra se utilizaron para realizar ensayos de laboratorio como la granulometría, e identificación de límites de Atterberg lo que permitiría obtener nuevas propiedades del suelo y clasificarlo según la USCS (sistema de Clasificación Unificada de suelos)</p>
+        </section>
+        <section class="second">
+            <h2 class="second-title">Análisis Granulométrico:</h2>
+            <div class="fila">
+                <div> <h3 font-size="1.5rem">Tamizado:</h3>
+                    <p class="second-parrafo p-tamizado">Para Realizar el tamizado se tomó dos cuartos de la muestra inicial (masa de estos dos cuartos era de 380.94 gramos) y se tamizó con el tamiz N°200, luego se lavó sobre este mismo tamiz buscando que todo el material que quedaba para realizar el tamizado fuera grueso (la masa retenida inicialmente en este tamiz fue de 192.35 gramos después de secado). A pesar de que este lavado tomó mucho tiempo no se logró que el agua saliera completamente transparente por lo tanto se esperaba, correctamente, que en el tamizado hubiera todavía suelo que pasaba el tamiz n°200. Con estas masas iniciales de gruesos y solidos se puede identificar un porcentaje inicial de finos y gruesos que como se mencionó anteriormente está propenso a cambiar. %gruesos = 43.793%, %Finos = 56.207.</p>
+                </div>
+                <span class="imagen" id="lavado"></span>
+            </div>
+            <div class="fila">
+                <span class="imagen" id="Tamizado"></span>
+                <p class="second-parrafo">Luego de la lavada se metió esta muestra al horno para evaporar toda el agua que había absorbido la muestra y permitir un tamizado correcto. Para el Tamizado se escogieron los siguientes tamices: n°4, n°8, n°30, n°60, n°140 y n°200, también se puso un fondo para calcular cuanta masa pasaba el tamiz 200. Una vez preparados los tamices se introdujo el material en el tamiz n°4, se colocó la tapa y se comenzó a agitar para que los granos lograran pasar los tamices que les correspondían y tener las medidas más correctas posibles. Finalmente se tomaron las masas retenidas en cada tamiz y se realizaron los cálculos respectivos para saber qué porcentaje se retiene y pasa con respecto a la muestra del tamizado (192.35 gramos) y a la muestra total (380.94 gramos).</p>
+            </div>
+            <table class="styled-table">
+            <thead><tr><th colspan="13">Tamizado</th></tr></thead>
+            <tbody>
+                <tr><td>Numero de tamiz</td><td>Abertura (mm)</td><td>Retenido (g)</td><td>Pasa (g)</td><td>Retenido (%)</td><td>Pasa (%)</td><td>Retenido Acu (%)</td><td>Ret Tot (%)</td><td>Ret Acu Tot (%)</td><td>Pasa total (g)</td><td>Pasa Tot (%)</td></tr>
+                <tr><td>4</td><td>4.74</td><td>16.61</td><td>129.06</td><td>11.40%</td><td>88.60%</td><td>11.40%</td><td>4.95%</td><td>4.95%</td><td>317.65</td><td>94.671%</td></tr>
+                <tr><td>8</td><td>2.36</td><td>19.97</td><td>109.09</td><td>13.71%</td><td>74.89%</td><td>25.11%</td><td>5.95%</td><td>10.90%</td><td>297.68</td><td>88.719%</td></tr>
+                <tr><td>30</td><td>0.6</td><td>58.73</td><td>50.36</td><td>40.32%</td><td>34.57%</td><td>65.43%</td><td>17.50%</td><td>28.41%</td><td>238.95</td><td>71.216%</td></tr>
+                <tr><td>60</td><td>0.25</td><td>20.79</td><td>29.57</td><td>14.27%</td><td>20.30%</td><td>79.70%</td><td>6.20%</td><td>34.60%</td><td>218.16</td><td>65.020%</td></tr>
+                <tr><td>140</td><td>0.106</td><td>24.13</td><td>5.44</td><td>16.56%</td><td>3.73%</td><td>96.27%</td><td>7.19%</td><td>41.79%</td><td>194.03</td><td>57.828%</td></tr>
+                <tr><td>200</td><td>0.075</td><td>5.11</td><td>0.33</td><td>3.51%</td><td>0.23%</td><td>99.77%</td><td>1.52%</td><td>43.32%</td><td>188.92</td><td>56.305%</td></tr>
+                <tr><td>fondo</td><td>0</td><td>0.33</td><td>0</td><td>0.23%</td><td>0.00%</td><td>100.00%</td><td>0.10%</td><td>43.41%</td><td>NA</td><td>NA</td></tr>
+                <tr><td>Total</td><td>NA</td><td>145.67</td><td>NA</td><td>100%</td><td>NA</td><td>100.00%</td><td>43.41%</td><td>NA</td><td>NA</td><td>NA</td></tr>
+            </tbody></table>
+            <p class="second-parrafo">Por último, se calculó la cantidad de material perdido durante el proceso de tamizaje para verificar que ese porcentaje no fuera representativo y verificar la validez del ensayo teniendo 1.27g de masa perdida que representa un 0.86% de la masa total.</p>
+        </section>
+        <section class="first">
+            <h2 class="first-title">Ensayo por hidrómetro:</h2>
+            <div class="fila">
+                <span class="imagen" id="masa-hidrometro"></span>
+                <p class="first-parrafo">Con parte de la muestra que pasó el tamiz 200 en el primer tamizado (antes del lavado) se procede a realizar el ensayó de hidrometría para obtener el tamaño de granos del suelo fino. Para este ensayo se mezclaron 39.43 gramos con defloculante,  una solución encargada de separar los flóculos que se forman por la unión de las arcillas por las fuerzas electricas, de esta forma se espera obtener los verdaderos diámetros de las partículas individuales. Una vez mezclada se dejó reposar y luego de aproximadamente una semana se le realizó la última mezclada para garantizar la disgregación del suelo y se pasó la mezcla a un tubo de ensayo. Además de nuestra mezcla, se tenía una sustancia de control que permitía tomar su temperatura y su lectura del hidrómetro. </p>               
+                <span class="imagen" id="tubo-hidrometro"></span>
+            </div>
+            <div class="fila">
+                <span class="imagen" id="temperatura"></span>
+                <p class="first-parrafo">Los datos que se tomaron de este ensayo fueron: la temperatura, (tomada de la sustancia de control) la lectura del hidrómetro de la sustancia de control (Que servirá para hacer la corrección de ceros) y la lectura del hidrómetro (Presentada en la tabla como lectura real) de nuestra mezcla. Estos datos se tomaron cada: 0.5, 1, 2, 4, 8, 15, 30, 60, 120 y 2531 minutos. Con estos datos, la gravedad especifica y siguiendo la guia otorgada por la profesora María Jaqueline Espinosa Rodríguez se calcularon los diámetros definidos y el porcentaje que pasa por estos diámetros. </p>               
+                <span class="imagen" id="lectura-hidrometro"></span>
+            </div>
+            <table class="styled-table">
+            <thead><tr><th colspan="12">Hidrómetro</th></tr></thead><tbody>
+             <tr><td>t(m)</td><td>T(°C)</td><td>Corrección de ceros</td><td>Lectura Real (Ra)</td><td>Corrección Por Temperatura (Ct)</td><td>Rc</td><td>P(%)</td><td>% pasa real</td><td>Lectura corregida por menisco (R)</td><td>Profundidad Efectiva (L)</td><td>Valor de K</td><td>Diámetro (mm)</td></tr>
+             <tr><td>0.5</td><td>23.6</td><td>3.5</td><td>43.5</td><td>0.88</td><td>40.88</td><td>101.79%</td><td>57.310%</td><td>44</td><td>9.1</td><td>0.01272</td><td>0.05426537</td></tr>
+             <tr><td>1</td><td>23.6</td><td>3.5</td><td>41</td><td>0.88</td><td>38.38</td><td>95.56%</td><td>53.805%</td><td>41.5</td><td>9.5</td><td>0.01272</td><td>0.03920567</td></tr>
+             <tr><td>2</td><td>23.6</td><td>3.5</td><td>37</td><td>0.88</td><td>34.38</td><td>85.60%</td><td>48.198%</td><td>37.5</td><td>10.15</td><td>0.01272</td><td>0.02865531</td></tr>
+             <tr><td>4</td><td>23.8</td><td>3</td><td>34</td><td>0.94</td><td>31.94</td><td>79.53%</td><td>44.777%</td><td>34.5</td><td>10.6</td><td>0.01268</td><td>0.02064154</td></tr>
+             <tr><td>8</td><td>23.8</td><td>3</td><td>29</td><td>0.94</td><td>26.94</td><td>67.08%</td><td>37.768%</td><td>29.5</td><td>11.45</td><td>0.01268</td><td>0.0151697</td></tr>
+             <tr><td>15</td><td>23.8</td><td>3</td><td>26</td><td>0.94</td><td>23.94</td><td>59.61%</td><td>33.562%</td><td>26.5</td><td>11.95</td><td>0.01268</td><td>0.01131768</td></tr>
+             <tr><td>30</td><td>24</td><td>3</td><td>23.5</td><td>1</td><td>21.5</td><td>53.53%</td><td>30.141%</td><td>24</td><td>12.4</td><td>0.01264</td><td>0.00812638</td></tr>
+             <tr><td>60</td><td>24</td><td>3</td><td>20</td><td>1</td><td>18</td><td>44.82%</td><td>25.234%</td><td>20.5</td><td>12.95</td><td>0.01264</td><td>0.00587227</td></tr>
+             <tr><td>120</td><td>24.4</td><td>3</td><td>18</td><td>1.12</td><td>16.12</td><td>40.14%</td><td>22.599%</td><td>18.5</td><td>13.25</td><td>0.0126</td><td>0.00418685</td></tr>
+             <tr><td>2531</td><td>19.4</td><td>4.5</td><td>16</td><td>-0.18</td><td>11.32</td><td>28.19%</td><td>15.870%</td><td>16.5</td><td>13.6</td><td>0.013392</td><td>0.00098168</td></tr>
+            </tbody></table>
+        </section>
+        <section class="second">
+            <h2 class="second-title">Resultados generales y curva granulométrica:</h2>
+            <p class="second-parrafo">Unificando los resultados obtenidos por el suelo grueso (Tamizado) y el fino (hidrómetro) se pudo encontrar los resultados generales del suelo y graficar su curva granulométrica. Con estos porcentajes se identificó el porcentaje de gruesos y finos real que tenia la muestra y con esto identificar el tipo de suelo. Por otro lado, podíamos identificar el porcentaje de Arcillas, Limos, Arenas, y Gravas (por tamaño, no minerales) que tiene la muestra y por ende el suelo analizado. </p>
+            <div class="fila">
+                <table class="styled-table">
+                    <thead><tr><th colspan="2">Datos obtenidos</th></tr></thead>
+                    <tbody>
+                     <tr><td>Masa de suelo fino</td><td>188.92</td></tr>
+                     <tr><td>% de suelo Fino</td><td>56.305%</td></tr>
+                     <tr><td>Masa de suelo Grueso</td><td>146.61</td></tr>
+                     <tr><td>% de suelo grueso</td><td>43.695%</td></tr>
+                     <thead><tr><th colspan="2">% de tipo de suelo por tamaño</th></tr></thead>
+                     <tr><td>Grava (G)</td><td>4.950%</td></tr>
+                     <tr><td>Arena (S)</td><td>38.366%</td></tr>
+                     <tr><td>Limos (M)</td><td>38.297%</td></tr>
+                     <tr><td>Arcillas (C)</td><td>18.008%</td></tr>
+                     <tr><td>Total</td><td>99.621%</td></tr>
+                     <tr><td>Error</td><td>0.379%</td></tr>
+                    </tbody>
+                </table>
+                <img src="./Assets/img/Curva-granulometrica.png" alt="Curva-granulometrica">
+            </div>
+            <p class="second-parrafo">Con estos resultados se obtiene la primera información sobre el tipo de suelo y con esta información se continúa clasificando según la USCS que menciona que se le deben hacer los ensayos de límites de liquidez y plasticidad y analizar el suelo con el diagrama de Casagrande.</p>
+        </section>
+        <section class="first">
+            <h2 class="first-title">Límites de Atterberg:</h2>
+            <p class="first-parrafo">El ultimo cuarto del cuarteo realizado en el laboratorio se utilizó para identificar los límites de Atterberg. Con esta finalidad se llevó a cabo un tamizado, con el tamiz n°40, sobre el cuarto seleccionado de la muestra, y se conservó el material que pasaba, el cual será el nuevo material de ensayo.</p>
+            <div class="fila">
+                <div class="columna">
+                    <h3 font-size="1.5rem">Límite de plasticidad:</h3>
+                    <p class="first-parrafo">Para el límite de plasticidad se inició con parte del material de ensayo seco y se comenzó a mezclar con agua y se intentaron hacer rollos de 1 milímetro de diámetro. Si el rollo se partía o quebraba antes de llegar a esta medida quería decir que estaba muy secó y se le debía agregar mas agua. Si por el contrario el rollo llegaba a esta medida muy fácilmente y lograba seguir disminuyendo su radio quería decir que estaba muy húmedo y por lo tanto se le debía agregar más material seco.Una vez se obtuvo una cantidad considerable de rollos, se depositan en una tara (a la cual se le conoce la masa) y se pesan. Finalmente se meten al horno para evaporar el agua de la muestra y una vez seca se saca, se pesa y se calcula su humedad.</p>
+                </div>
+                <table class="t-ll">
+                <thead><tr><th colspan="2">Límite plástico</th><th></tr></thead><tbody>
+                 <tr><td>M De Tara</td><td>8.65</td><td>g</td></tr>
+                 <tr><td>M Suelos Húmedos (con Tara)</td><td>21.7</td><td>g</td></tr>
+                 <tr><td>M Suelos Secos (Con Tara)</td><td>18</td><td>g</td></tr>
+                 <tr><td>Masa Del Agua</td><td>3.7</td><td>g</td></tr>
+                 <tr><td>M Suelo Húmedo (sin Tara)</td><td>13.05</td><td>g</td></tr>
+                 <tr><td>M Suelo seco (sin Tara)</td><td>9.35</td><td>g</td></tr>
+                 <tr><td>W (Humedad) (límite Plástico)</td><td>39.57</td><td>%</td></tr>
+                </tbody></table>
+            </div>
+            <h3 font-size="1.5rem">Límite de liquidez:</h3>
+            <p class="first-parrafo">El ensayo para calcular el limité de liquidez se basa en poner la muestra con cierta humedad (hasta que el suelo tenga una contextura de plastilina) en la capsula de Casagrande y marcarle una ranura con el ranurador de bronce, luego se empieza a subir y a dejar caer la capsula de Casagrande a una altura del ranurador de bronce (1 centímetro) hasta que la ranura se cierre. Una vez realizado esto se anotan cuantos golpes (caídas) se demoró en cerrarse la ranura y se procede a calcular la masa húmeda. A continuación, se introduce la mezcla en el horno para secarla y medir su masa seca. Finalmente, con estas dos masas calculamos la masa que tenía y su humedad. El límite de liquides se encuentra en la humedad en la cual se requieren exactamente 25 golpes para cerrar la ranura, Por lo tanto, en nuestro ensayo se tomaron tres pruebas, todas con distinta humedad y cantidad de golpes, Para, con estos datos, extrapolar y obtener la humedad con 25 golpes.</p>
+            <div class="fila">
+                <table>
+                <thead><tr><th colspan="5">Límite líquido</th></tr></thead><tbody>
+                 <tr><td> </td><td>Muestra 1</td><td>Muestra 2</td><td>Muestra 3</td><td>Unidad</td></tr>
+                 <tr><td>M De Tara</td><td>7.73</td><td>6.66</td><td>5.68</td><td>Gramos</td></tr>
+                 <tr><td>M Suelos Hum (con Tara)</td><td>39.39</td><td>35.2</td><td>29.78</td><td>Gramos</td></tr>
+                 <tr><td>M Suelos Seco (Con Tara)</td><td>28.45</td><td>25</td><td>21.55</td><td>Gramos</td></tr>
+                 <tr><td>Masa Del Agua</td><td>10.94</td><td>10.2</td><td>8.23</td><td>Gramos</td></tr>
+                 <tr><td>M Suelo Hum (sin Tara)</td><td>31.66</td><td>28.54</td><td>24.1</td><td>Gramos</td></tr>
+                 <tr><td>M Suelo seco (sin Tara)</td><td>20.72</td><td>18.34</td><td>15.87</td><td>Gramos</td></tr>
+                 <tr><td>W (Humedad)</td><td>52.80%</td><td>55.62%</td><td>51.86</td><td>%</td></tr>
+                 <tr><td>Golpes</td><td>11</td><td>6</td><td>22</td><td>Golpes</td></tr>
+                </tbody></table>
+                <img src="./Assets/img/LL.png" alt="Límite-líquido">
+                </div>
+            <p class="first-parrafo">Con la ecuación otorgada por Excel de la línea de tendencia potencial, W = 0.6076G-0.053, podemos calcular una valor mas preciso de la húmedad a los 25 golpes. (LL=51.23%).</p>
+            <p class="first-parrafo"></p>
+        </section>
+        <section class="second">
+            <h2 class="second-title">Clasificación de Casagrande:</h2>
+            <p class="second-parrafo">Conociendo los límites plásticos y líquidos de nuestros suelos tenemos los datos necesarios para realizarle la clasificación de Casagrande, ya que este necesita como variables de ingreso el límite líquido y el índice de plasticidad, el cual se calcula como el límite líquido menos el indicé plástico. El primer paso para la clasificación de Casagrande es determinar si el limité líquido es mayor o menor al 50%. Después se debe analizar si está por encima o por debajo de la línea A, la cual está definida por la ecuación IP=0.73(LL-20), Para definir esto calculamos el IP de la línea A con nuestro LL y si este es mayor al IP obtenido en los ensayos nuestra muestra estaría por debajo de la línea A, de lo contrario estaría por encima.</p>
+            <div class="fila">
+                <table>
+                    <thead><tr><th colspan="2">Tabla de Casagrande</th></tr></thead><tbody>
+                     <tr><td>IP Muestra</td><td>11.66%</td></tr>
+                     <tr><td>Ip Linea A</td><td>22.80%</td></tr>
+                     <tr><td colspan="2">Lado Derecho</td></tr>
+                     <tr><td colspan="2">Debajo Línea A</td></tr>
+                     <tr><td colspan="2">Limo De Alta Compresibilidad</td></tr>
+                    </tbody>
+                </table>
+                <img src="./Assets/img/Casagrande.png" alt="diagrama-casagrande">
+           </div>
+            <p class="second-parrafo">Con el resultado de que nuestra muestra, y por ende el suelo analizado, es un limo De Alta Compresibilidad se completó el analisis USCS, lo que nos permite saber cuales podrian ser los usos de este suelo y que cualidades generales y fisicas podria tener.</p>
+        </section>
+        <section class="first">
+            <h2 class="first-title">Índice de liquidez:</h2>
+            <p class="first-parrafo">Por ultimo, ya que nuestra muestra presenta una gran cantidad de finos se quizo analizar cual seria el tipo de arcillas que se presenta en el, por lo tanto se calculó su indicé de liquides el cual es IL=(Wn-Lp)/IP siendo Wn la humedad que tenia el suelo cuando se extrajo la muestra.</p>
+            <div class="fila">
+                <table>
+                    <thead><tr><th colspan="2">Arcillas Preconsolidadas</th></tr></thead><tbody>
+                     <tr><td>IL</td><td>0.369543954</td></tr>
+                    </tbody>
+                </table>
+                <p class="first-parrafo">Como El Indice de liquides nos dio menor a 1 podemos asumir que sus arcillas están preconsolidadas y no tendrian tendencia a presentar deslizamientos o comportamientos luquidos. También se puede concluir que la humedad natural es mayor a el limité plastico ya que IL dá mayor a cero.</p>
+           </div>
+        </section>
+        <section class="first">
+            <h2 class="first-title">Actividad de las arcillas:</h2>
+            <p class="first-parrafo">Por último, Calculamos la actividad de las arcillas, la cual se calcula dividiendo el IP de la muestra entre el porcentaje de arcillas, (encontrado en encontrado en resultados de Granulometría).</p>
+            <div class="fila">
+                <p class="first-parrafo"> Esta actividad nos da menor a 0.75 lo cual nos indica que las arcillas no presentan actividad por lo tanto podrían ser esmécticas. Lo cual es bueno considerando que el suelo se quiere usar como apoyo para residencias, por lo tanto, se necesita que el suelo no sufra muchas deformaciones por la entrada y salida de aguas.</p>
+                <table>
+                    <thead><tr><th colspan="2">Arcillas Inactivas</th></tr></thead><tbody>
+                     <tr><td>A</td><td>0.647399595</td></tr>
+                    </tbody>
+                </table>
+           </div>
+        </section>
+        <section class="second">
+            <h2 class="second-title">Análisis de resultados</h2>
+            <ul class="analisis">
+                <li class="second-parrafo">• Al calcular el índice de liquidez se puede identificar que, como mencionado anteriormente, son arcillas preconsolidadas, y que, aunque tomemos el suelo en estado de saturación, con su humedad de 46.17%, el IL seria de 0.6089, lo cual es menor a 1. Lo cual indicaría que sus arcillas siguen siendo preconsolidadas. Esto implicaría que el suelo nunca tenga un comportamiento Liquido lo que concuerda con los conocimientos previos del terreno ya que este fue un aplanamiento antrópico para la construcción de una edificación, por lo tanto, debía asegurar que sus arcillas nunca se comportaran de manera sensitivas y el suelo fuera estable.</li>
+                <li class="second-parrafo">• El conjunto de que el suelo sea preconsolidado y se considere una arcilla inactiva, nos confirma que este suelo preserva un estado apto para la construcción, apesar de que a pasado más de una década desde que este suelo fue tratado y depositado para su uso en construcción, y haciendo necesario solo la extración de las capas supeficiales con materia orgánica para encontrar un suelo adecuado.</li>
+                <li class="second-parrafo">• Se puede observar por la curva granulometrica y la cantidad de finos del suelo, cómo hace sentido que ni la relación de vacíos ni la porosidad sean altas, pues al no tener gran porcentaje de gruesos y tener suficientes limos y arcillas los espacios entre granos van a ser menores y posiblemente presenten buena respuesta mecánica, sumandole las caracteristicas mencionadas en los items anteriores</li>
+            </ul>
+        </section>
+        <section class="first">
+            <h2 class="first-title">Conclusiones y posibles errores en el procedimiento: </h2>
+            <ul class="conclusiones">
+                <li class="first-parrafo">•	Durante este proceso se habla de la muestra como representante del suelo que se quiere analizar, lo cual es correcto, pero se debe tener presente que si se quiere tener una fiabilidad mayor sobre todo el suelo se deberán tomar mas muestras por toda la superficie del terreno y calcular los mismos datos que se le calculó a esta. Estos datos deberían ser parecidos, aunque podrían presentar ciertas discrepancias mostrando la heterogeneidad del suelo y del terreno.</li>
+                <li class="first-parrafo">•	En el proceso de Tamizado se presentó una pérdida de masa que pudo ser producida por mala manipulación de los instrumentos o por que parte de la masa se quedó retenida en las aberturas de los tamices. Al calcular el porcentaje de masa perdida obtuvimos un valor del 0.86% el cual es menor al 2% máximo permitido por la norma, por lo tanto, se puede tomar el ensayo como valido y no se tendría que repetir.</li>
+                <li class="first-parrafo">•	Cuando se realizaron los cálculos Del hidrómetro se presentó una incongruencia ya que decía que el porcentaje que pasa el primer diámetro es de 101.79% lo cual implicaría que por ese diámetro pasa mas suelo que la que fue introducida al ensayo. Este error pudo haber sido dado a mala lectura de los datos, a mala calibración del hidrómetro o los otros instrumentos y cálculos o por mala manipulación de los materiales e instrumentos. En todo caso este error sigue siendo muy pequeño (menor a 2%) como para invalidar el ensayo y por lo tanto se puede tomar como valido.</li>
+                <li class="first-parrafo">•	Estos errores mencionados anteriormente causaron que en la curva granulométrica se vea un aumento en el porcentaje que pasa cuando va de un diámetro mayor a uno menor. Lo cual no tendría sentido, pero como se mencionó anteriormente es un error admisible para el ensayó y que no tiene consecuencias graves en los resultados obtenidos.</li>
+                <li class="first-parrafo">•	A pesar de que los errores mencionados anteriormente y otros que se pudieron haber realizado durante la practica no invalidan los ensayos se debe tener en cuenta para la fiabilidad de los resultados y su confiabilidad. Si este suelo se quisiera utilizar para un uso especificó se deberían hacer mas ensayos que complementen los resultados obtenidos en este y aumenten su confiabilidad.</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>​©2022 por Laboratorio de Física y Mecánica de Suelos de Juan David Pineda, Fernando Gómez, Pablo Ospina.</p>
+    </footer>
+</body>
+</html>

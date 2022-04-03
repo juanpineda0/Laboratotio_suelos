@@ -266,11 +266,12 @@ tbody tr:nth-child(even) {
   color: #000000;
 }
 table {
-  background-color: black;
+  background-color: var(--Dark-soil);
   width: 400px;
   font-size: 1.5rem;
   text-align: center;
   margin: 10px;
+  box-shadow: 8px 8px 16px var(--Dark-soil);
 }
 thead,
 tfoot {
@@ -280,4 +281,24 @@ tfoot {
 .fila {
   display: flex;
   flex-direction: row;
+}
+.columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul .header-clasificacion {
+  width: 150px;
+}
+h3 {
+  font-size: 1.5rem;
+}
+img {
+  border: 12px solid var(--Dark-soil);
+  box-shadow: 8px 8px 16px var(--Dark-soil);
+}
+header img {
+  border-width: 0;
+  box-shadow: none;
 }

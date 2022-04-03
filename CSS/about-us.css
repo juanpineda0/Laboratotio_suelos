@@ -2,10 +2,6 @@ html {
   font-size: 62.5%;
   font-family: "Oswald-medium", sans-serif;
 }
-main {
-  display: flex;
-  height: 70vh;
-}
 body {
   display: flex;
   width: 100vw;
@@ -23,11 +19,41 @@ aside {
 }
 .logo {
   width: 50%;
-  height: 100%;
+  height: 80vh;
   background-image: url(../Assets/icon/LogoLab.png);
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+}
+.pablo {
+  width: 30%;
+  height: 90vh;
+  background-image: url(../Assets/img/Pablo.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 5vh 8%;
+  border-radius: 20vh;
+}
+.fernando {
+  width: 30%;
+  height: 90vh;
+  background-image: url(../Assets/img/Fernando.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 5vh 8%;
+  border-radius: 20vh;
+}
+.juan {
+  width: 30%;
+  height: 90vh;
+  background-image: url(../Assets/img/Juan.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 5vh 8%;
+  border-radius: 20vh;
 }
 .titulo {
   width: 70%;
