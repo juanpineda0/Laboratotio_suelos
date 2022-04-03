@@ -1,0 +1,50 @@
+#lavado {
+  background-image: url(../Assets/img/Lavado-tamiz200.jpeg);
+  width: 400px;
+}
+#Tamizado {
+  background-image: url(../Assets/img/Tamizado.jpg);
+  width: 400px;
+}
+#tubo-hidrometro {
+  background-image: url(../Assets/img/tubo-hidrometro.jpg);
+  width: 150px;
+}
+#masa-hidrometro {
+  background-image: url(../Assets/img/masa-hidrometro.jpg);
+  width: 400px;
+}
+#lectura-hidrometro {
+  background-image: url(../Assets/img/lectura-hidrometro.jpg);
+  width: 300px;
+}
+#temperatura {
+  background-image: url(../Assets/img/temperatura.jpg);
+  width: 300px;
+}
+.fila > div {
+  width: 70%;
+}
+.p-tamizado {
+  width: 95%;
+}
+table {
+  width: 1200px;
+  margin: 0 auto;
+}
+.t-ll {
+  height: 300px;
+  margin: auto;
+}
+.fila > table {
+  width: 50%;
+}
+h3 {
+  margin: 0 auto;
+}
+.conclusiones,
+.analisis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
