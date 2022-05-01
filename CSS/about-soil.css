@@ -62,7 +62,7 @@ section {
 }
 #imagen-descripcion {
   background-image: url("https://www.cornare.gov.co/wp-content/uploads/2020/01/contextualizacion-geografica.png");
-}
+} 
 #imagen-cornare {
   align-self: center;
   width: 950px;
@@ -128,4 +128,7 @@ section {
 }
 h3 {
   font-size: 2.5rem;
+}
+.buses {
+  align-self: center;
 }

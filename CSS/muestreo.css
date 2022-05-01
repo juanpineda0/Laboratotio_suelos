@@ -57,3 +57,10 @@
 .medicion {
   background-image: url("../Assets/img/Medicion_Diametro.jpeg");
 }
+p {
+  margin: 20px auto;
+}
+.muestreo-toma1, .muestreo-aleatorio {
+  align-self: center;
+  margin: 20px;
+}
